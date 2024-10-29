@@ -1,0 +1,28 @@
+/**
+ * Block editor styles.
+ */
+
+#besan-chart-edit {
+
+  // Chart placeholder image.
+  .besan-placeholder {
+    background-color: $placeholder-bg;
+    height: 300px;
+    margin-block-end: 1rem;
+    padding: 0.5rem 1rem;
+    text-align: center;
+
+    svg {
+      height: 100%;
+      width: auto;
+    }
+  }
+
+  // Caption field.
+  .besan-edit-caption input {
+    border: 0;
+    font-size: 1rem;
+    font-style: italic;
+  }
+
+}

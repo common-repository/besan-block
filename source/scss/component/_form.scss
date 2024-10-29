@@ -1,0 +1,23 @@
+/**
+ * Form on the settings page.
+ */
+
+.besan-form {
+
+  fieldset {
+    align-items: baseline;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: max-content 1fr;
+  }
+
+  label {
+    display: inline-block;
+    font-weight: bold;
+  }
+
+  input[type=text] {
+    padding: 0.5rem;
+  }
+
+}
